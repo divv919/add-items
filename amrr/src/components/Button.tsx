@@ -1,13 +1,11 @@
 interface ButtonProps {
-  varient: "primary" | "secondary";
-  loading?: boolean;
   text: string;
   onClick: () => void;
 }
 export const Button = ({
   text,
-  varient,
-  loading = false,
+  // varient,
+  // loading = false,
 
   onClick,
 }: ButtonProps) => {

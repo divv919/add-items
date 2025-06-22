@@ -131,7 +131,7 @@ export const AddItem = () => {
       <input type="file" onChange={handleFileChange}></input>
       {file && <img src={URL.createObjectURL(file)}></img>} */}
         <div className="flex justify-end">
-          <Button varient="primary" onClick={handleSubmit} text="Add Item" />
+          <Button onClick={handleSubmit} text="Add Item" />
         </div>
       </div>
       <div
